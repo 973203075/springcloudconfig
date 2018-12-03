@@ -1,1 +1,26 @@
+<<<<<<< HEAD
+foo: 222
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/,http://localhost:1002/eureka/,http://localhost:1003/eureka/
+---
+server:
+  port: 3002
+spring:
+  application:
+    name: service-b
+  profiles: b  
+---
+
+server:
+  port: 3001
+spring:
+  application:
+    name: service-a
+  profiles: a
+
+      
+=======
 foo: 2222
+>>>>>>> d51cf159844fb4db9fe05bc4a63f852d0c001b06
