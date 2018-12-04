@@ -18,3 +18,10 @@ spring:
   application:
     name: service-a
   profiles: a
+---
+server:
+  port: 3003
+spring:
+  application:
+    name: service-b
+  profiles: c
